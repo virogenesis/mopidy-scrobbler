@@ -1,3 +1,9 @@
+mopidy-scrobbler (1.0.0-0mopidy2) unstable; urgency=low
+
+  * Add python-setuptools to Build-Depends.
+
+ -- Stein Magnus Jodal <stein.magnus@jodal.no>  Sat, 02 Nov 2013 13:44:32 +0100
+
 mopidy-scrobbler (1.0.0-0mopidy1) unstable; urgency=low
 
   * Initial release
