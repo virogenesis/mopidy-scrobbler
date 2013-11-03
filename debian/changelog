@@ -1,3 +1,10 @@
+mopidy-scrobbler (1.0.0-0mopidy3) unstable; urgency=low
+
+  * Switch from mopidy-scrobbler.pydist to pydist-overrides for compatibility
+    with wheezy.
+
+ -- Stein Magnus Jodal <stein.magnus@jodal.no>  Sun, 03 Nov 2013 22:26:38 +0100
+
 mopidy-scrobbler (1.0.0-0mopidy2) unstable; urgency=low
 
   * Add python-setuptools to Build-Depends.
