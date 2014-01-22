@@ -3,11 +3,11 @@ Mopidy-Scrobbler
 ****************
 
 .. image:: https://pypip.in/v/Mopidy-Scrobbler/badge.png
-    :target: https://crate.io/packages/Mopidy-Scrobbler/
+    :target: https://pypi.python.org/pypi/Mopidy-Scrobbler/
     :alt: Latest PyPI version
 
 .. image:: https://pypip.in/d/Mopidy-Scrobbler/badge.png
-    :target: https://crate.io/packages/Mopidy-Scrobbler/
+    :target: https://pypi.python.org/pypi/Mopidy-Scrobbler/
     :alt: Number of PyPI downloads
 
 .. image:: https://travis-ci.org/mopidy/mopidy-scrobbler.png?branch=master
@@ -63,6 +63,11 @@ Project resources
 
 Changelog
 =========
+
+v1.1.0 (2014-01-20)
+-------------------
+
+- Updated extension API to match Mopidy 0.18.
 
 v1.0.0 (2013-10-08)
 -------------------

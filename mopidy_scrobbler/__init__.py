@@ -5,7 +5,7 @@ import os
 from mopidy import config, ext
 
 
-__version__ = '1.0.0'
+__version__ = '1.1.0'
 
 
 class Extension(ext.Extension):
@@ -24,6 +24,6 @@ class Extension(ext.Extension):
         schema['password'] = config.Secret()
         return schema
 
-    def get_frontend_classes(self):
+    def setup(self, registry):
         from .frontend import ScrobblerFrontend
-        return [ScrobblerFrontend]
+        registry.add('frontend', ScrobblerFrontend)
