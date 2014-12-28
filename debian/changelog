@@ -1,3 +1,9 @@
+mopidy-scrobbler (1.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Stein Magnus Jodal <stein.magnus@jodal.no>  Mon, 29 Dec 2014 00:27:49 +0100
+
 mopidy-scrobbler (1.1.0-1) unstable; urgency=low
 
   * New upstream release.
