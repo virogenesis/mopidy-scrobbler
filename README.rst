@@ -2,19 +2,19 @@
 Mopidy-Scrobbler
 ****************
 
-.. image:: https://pypip.in/v/Mopidy-Scrobbler/badge.png
+.. image:: https://img.shields.io/pypi/v/Mopidy-Scrobbler.svg?style=flat
     :target: https://pypi.python.org/pypi/Mopidy-Scrobbler/
     :alt: Latest PyPI version
 
-.. image:: https://pypip.in/d/Mopidy-Scrobbler/badge.png
+.. image:: https://img.shields.io/pypi/dm/Mopidy-Scrobbler.svg?style=flat
     :target: https://pypi.python.org/pypi/Mopidy-Scrobbler/
     :alt: Number of PyPI downloads
 
-.. image:: https://travis-ci.org/mopidy/mopidy-scrobbler.png?branch=master
+.. image:: https://img.shields.io/travis/mopidy/mopidy-scrobbler/master?style=flat
     :target: https://travis-ci.org/mopidy/mopidy-scrobbler
     :alt: Travis CI build status
 
-.. image:: https://coveralls.io/repos/mopidy/mopidy-scrobbler/badge.png?branch=master
+.. image:: https://img.shields.io/coveralls/mopidy/mopidy-scrobbler/master?style=flat
    :target: https://coveralls.io/r/mopidy/mopidy-scrobbler?branch=master
    :alt: Test coverage
 
@@ -63,6 +63,12 @@ Project resources
 
 Changelog
 =========
+
+v1.1.1 (2014-12-29)
+-------------------
+
+- Updated to work with ``None`` as the default value of ``track_no`` in
+  Mopidy's ``Track`` model. This was changed in Mopidy 0.19.5. (Fixes: #7)
 
 v1.1.0 (2014-01-20)
 -------------------
