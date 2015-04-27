@@ -1,5 +1,7 @@
-mopidy-scrobbler (1.1.1-2) UNRELEASED; urgency=medium
+mopidy-scrobbler (1.1.1-2) unstable; urgency=medium
 
+  * Update packaging copyright year.
+  * Fix dep5-copyright-license-name-not-unique lintian warning.
   * Bump Standards-Version to 3.9.6.
 
  -- Stein Magnus Jodal <stein.magnus@jodal.no>  Thu, 01 Jan 2015 20:15:46 +0100
