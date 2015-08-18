@@ -2,6 +2,7 @@ mopidy-scrobbler (1.1.1-3) unstable; urgency=medium
 
   * Build-Depend on mopidy, so it doesn't have to be included in
     pydist-overrides.
+  * Build-Depend on debhelper 9.
 
  -- Stein Magnus Jodal <stein.magnus@jodal.no>  Tue, 18 Aug 2015 13:34:35 +0200
 
